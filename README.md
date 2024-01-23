@@ -1,3 +1,12 @@
+```mermaid
+graph LR;
+  untracked -- "git add" --> staged;
+  staged    -- "???"     --> tracked/comitted;
+
+%% стрелка без текста для примера: 
+  A --> B;
+``` 
+
 # Шпаргалка по консольным командам Git
 
 ### Добавляйте свои команды и остальные полезности через `Pull request`.
